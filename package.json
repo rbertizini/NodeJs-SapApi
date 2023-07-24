@@ -1,0 +1,18 @@
+{
+  "name": "sap-api",
+  "version": "1.0.0",
+  "description": "Teste consumo SAP API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "circular-json": "^0.5.9",
+    "express": "^4.18.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
