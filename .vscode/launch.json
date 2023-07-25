@@ -4,12 +4,14 @@
 	// Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
 	"version": "0.2.0",
 	"configurations": [
+
 		{
-			"type": "chrome",
-			"request": "launch",
-			"name": "Iniciar o Chrome em relação a localhost",
-			"url": "http://localhost:3000",
-			"webRoot": "${workspaceFolder}"
+			"type": "node",
+            "request": "attach",
+            "name": "Attach by Process ID",
+            "processId": "${command:PickProcess}",
+            "protocol": "inspector",
+            "restart": true
 		}
 	]
 }
